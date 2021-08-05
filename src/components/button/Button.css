@@ -1,0 +1,22 @@
+:root {
+    --primary: #FF3D68;
+}
+
+.buttonbtn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.buttonbtn:hover{
+    padding: 6px 18px;
+    transition: 0.3s all ease;
+    background-color: transparent;
+    color: #E98580;
+    border: 2px solid var(--primary)
+}

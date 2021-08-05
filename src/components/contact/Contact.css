@@ -1,0 +1,243 @@
+.contactInfo{
+    display: flex;
+    height: 100vh;
+    background-color: #C490E4;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ContactWrapper{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8485E;
+    
+}
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoitem{
+    background-color: white;
+    color: #512D6D;
+    padding: 2%;
+    width: 20%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: -5px 10px 10px rgba(0,0,0,0.3);
+}
+
+.contactusForm{
+    padding: 5%;
+}
+
+.contactusForm > h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.contactForm{
+    padding: 30px;
+}
+
+.contactusFormInput{
+    width: 30%;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.contactUsMessage{
+    width: 70%;
+    height: 100px;
+    margin: 30px;
+    outline: none;
+    border: none;
+}
+
+.firstSet{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.secondSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormBtn{
+    padding: 12px 26px;
+    font-size: 16px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+}
+
+.contactFormBtn:hover {
+  transition: all 0.3s ease-out;
+  background: #FAFF00;
+  color: #242424;
+  transition: 250ms;
+}
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.socialContainer a{
+    padding: 20px;
+    color: #7b7c7c;
+    font-size: 1.1rem;
+}
+
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+
+.socialContainer a:hover{
+    color: blue;
+    transition: all ease 0.3s;
+}
+
+.contactusSection{
+    height: 100vh;
+    background-color: #C490E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box{
+    background-color: #434445;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+
+.contactHeading h1{
+    color: #e7eef3;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+.contactHeading p{
+    color: #cecece;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.contactInputs{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactInputs input{
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border-top: 1px solid rgba(251,251,251,0.00);
+    border-right: 1px solid rgba(251,251,251,0.00);
+    border-left: 1px solid rgba(251,251,251,0.00);
+    outline: none !important;
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #f4f4f4;
+    display: flex;
+}
+.contactInputs textarea{
+    width: 250px !important;
+    height: 200px !important;
+    outline: none;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(82,82,82,1);
+    color: #f4f4f4;
+    padding: 10px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.contactInputs button{
+    padding: 12px 26px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+}
+
+.contactInputs button:hover {
+  transition: all 0.3s ease-out;
+  background: #FAFF00;
+  color: #242424;
+  transition: 250ms;
+}
+
+.contactInputs input:focus{
+    border-bottom: 1px solid rgba(252, 252, 252, 1);
+}
+.contactInputs textarea:focus{
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1.00);
+    transition: all ease 0.3s;
+}
+
+iframe{
+    width: 600px;
+    height: 450px;
+    border: 0px;
+}
+
+@media (max-width: 1100px){
+    .map{
+        display: none;
+    }
+    .socialContainer{
+        display: none;
+    }
+    .contact-box{
+        overflow-y: hidden;
+    }
+}
+
+.contactInfo > h1{
+    background-color: #C490E4;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}

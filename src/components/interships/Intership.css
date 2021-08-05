@@ -1,0 +1,9 @@
+.sidebarContainer{
+    display: flex;
+    background-color: #F9F3F3;
+}
+
+.dashboard{
+    flex: 4;
+    padding: 20px;
+}
